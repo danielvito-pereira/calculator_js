@@ -1,0 +1,11 @@
+.calculator{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 95%;
+  min-height: 80%;
+  margin: auto;
+  background-color: darkgoldenrod;
+  border-radius:1.5rem;
+}

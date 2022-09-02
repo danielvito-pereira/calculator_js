@@ -1,0 +1,23 @@
+.calculator-buttons{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1%;
+  min-width: 80%;
+  min-height: 15%;
+}
+
+.calculator button{
+  background-color: black;
+  color: white;
+  padding: 1.2rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  outline: none;
+  cursor: pointer;
+  border: 2px solid black;
+}
+
+button:hover{
+  background-color: #FBAB18;
+  color: black;
+}
